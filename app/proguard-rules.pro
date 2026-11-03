@@ -1,0 +1,4 @@
+-keep class com.google.ai.edge.litertlm.** { *; }
+-dontwarn com.google.ai.edge.litertlm.**
+-dontwarn com.google.protobuf.**
+-keep class com.sermonprep.app.data.db.** { *; }
